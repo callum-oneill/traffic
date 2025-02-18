@@ -2,7 +2,7 @@ class TrafficLightClass:
     def __init__(self, position, green_duration, orange_duration, red_duration):
         self.position = position
         self.green_duration = green_duration
-        self.orange_duration = orange_duration
+        self.orange_duration = 0#orange_duration
         self.red_duration = red_duration
 
     def status(self, time):
