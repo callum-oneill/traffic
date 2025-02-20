@@ -77,5 +77,5 @@ for g in range(20,50,10):
   plt.ylabel('Average waiting time (seconds)', fontsize=12)
   plt.suptitle("Average waiting time per car: Green %s seconds" % g)
   # plt.show()
-  plt.savefig("images/model_3_%s.png" % g)
+  plt.savefig("model_3_%s.png" % g)
   plt.clf()

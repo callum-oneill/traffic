@@ -169,7 +169,7 @@ plt.legend(fontsize=9,loc=0)
 plt.xlabel('Minute', fontsize=12)
 plt.ylabel('Number of Cars', fontsize=12)
 plt.suptitle("Number of waiting & passing cars per interval")
-plt.savefig("images/model4_numCars.png")
+plt.savefig("model4_numCars.png")
 
 plt.clf()
 
@@ -180,7 +180,7 @@ plt.legend(fontsize=9,loc=0)
 plt.xlabel('Minute', fontsize=12)
 plt.ylabel('Number of seconds', fontsize=12)
 plt.suptitle("Average wait time per interval")
-plt.savefig("images/model4_avgTime.png")
+plt.savefig("model4_avgTime.png")
 
 plt.clf()
 
@@ -193,7 +193,7 @@ plt.hist(allWaitTimes,bins=40,normed=True,alpha=0.5,color='g')
 plt.suptitle("Distribution of car wait times")
 plt.xlabel('Car Wait Time (secs)', fontsize=12)
 plt.ylabel('%', fontsize=12)
-plt.savefig("images/model4_hist.png")
+plt.savefig("model4_hist.png")
 
 plt.clf()
 
@@ -201,4 +201,4 @@ plt.hist(allWaitTimes,bins=40,normed=True,alpha=0.5,color='r',cumulative=True)
 plt.suptitle("Distribution of car wait times")
 plt.xlabel('Car Wait Time (secs)', fontsize=12)
 plt.ylabel('Cumulative %', fontsize=12)
-plt.savefig("images/model4_hist_cum.png")
+plt.savefig("model4_hist_cum.png")
